@@ -1,14 +1,14 @@
-import Cards from '../CardTemplates/Cards'
+import Card from '../CardTamplates/Card.jsx'
 import { FaRegRectangleList } from "react-icons/fa6";
 import { TbCircleDotted } from "react-icons/tb";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import { CiSquareRemove } from "react-icons/ci";
 
 
-export default function Tickets4(){
+export default function TicketsStatistics(){
 
 return(
-<Cards title="Tickets Statistics" text="Everything About Support Tickets" >
+<Card title="Tickets Statistics" text="Everything About Support Tickets" >
     <div className='grid grid-cols-1 md:grid-cols-2 gap-4 m-4'>
 
 
@@ -43,7 +43,7 @@ return(
 </div>
 
 
-</Cards>
+</Card>
 
 
 

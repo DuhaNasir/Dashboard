@@ -1,10 +1,10 @@
-import Cards from '../SharedUi/Cards'
-import NewsSt from '../SharedUi/NewsSt';
+import Card from '../CardTamplates/Card'
+import NewsSt from '../CardTamplates/NewsSt';
 
-export default function News5(){
+export default function LatestNews(){
 
 return(
-<Cards title="Top Search Items"  >
+<Card title="Top Search Items"  >
 <NewsSt  title="Created SASS Section"  text="New SASS Examples & Tutorials"  days="3 Days Ago" img="/imgs/news-01.png" classH="font-bold"/>
  <hr className='text-[#cac9c972]'/>
 
@@ -19,7 +19,7 @@ return(
 
 <NewsSt  title="Added Payment Gateway"  text="Many New Payment Gateways Added"  days="9 Days Ago" img="/imgs/news-04.png" classH="font-bold"/>
 
-</Cards>
+</Card>
 ); 
 
 }

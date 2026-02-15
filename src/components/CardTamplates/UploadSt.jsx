@@ -1,4 +1,4 @@
-import Cards from './Cards'
+import Cards from '../CardTamplates/Card'
 
 
 export default function UploadSt(props){

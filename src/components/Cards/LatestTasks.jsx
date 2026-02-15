@@ -1,10 +1,10 @@
-import Cards from '../Props/Cards'
-import TasksSt from '../Props/TasksSt'
+import Card from '../CardTamplates/Card'
+import TasksSt from '../CardTamplates/TasksSt'
 
-export default function Tasks6(){
+export default function LatestTasks(){
 
 return(
-<Cards title="Latest Tasks"  >
+<Card title="Latest Tasks"  >
  <TasksSt title="Record One New Video"  text="Record Python Create Exe Project"/>
 
  <hr className='text-[#cac9c972]'/>
@@ -24,7 +24,7 @@ return(
  <TasksSt title="Finish Lesson"  text="Finish Teaching Flex Box"/>
 
 
-</Cards>
+</Card>
 
 
 

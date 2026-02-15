@@ -1,10 +1,10 @@
-import Cards from '../CardTemplates/Cards'
+import Card from '../CardTamplates/Card.jsx'
 
 
-export default function Reminders10(){
+export default function Reminders(){
 
 return(
-<Cards title="Reminders"  >
+<Card title="Reminders"  >
  
 
 
@@ -58,7 +58,7 @@ return(
 </div>
 </div>
 
-</Cards>
+</Card>
 
 
 

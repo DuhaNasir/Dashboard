@@ -8,7 +8,7 @@ import { IoPersonOutline } from "react-icons/io5";
 import { MdLinearScale } from "react-icons/md";
 import { AiOutlineBarChart } from "react-icons/ai";
 
-import Styleitems from "./Props/Styleitems"
+import Styleitems from "./CardTamplates/Styleitems"
 
 
 export default function Sidebar(){

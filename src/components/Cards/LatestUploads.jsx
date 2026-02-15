@@ -1,11 +1,11 @@
-import Cards from '../Props/Cards'
-import UploadSt from '../Props/UploadSt';
+import Card from '../CardTamplates/Card'
+import UploadSt from '../CardTamplates/UploadSt';
 
 
-export default function Uploads8(){
+export default function LatestUploads(){
 
 return(
-<Cards title="Latest Uploads"  >
+<Card title="Latest Uploads"  >
  
 <UploadSt title="my-file.pdf" text="Elzero"  days="2.9mb"  img="/imgs/pdf.svg"/>
 
@@ -25,7 +25,7 @@ return(
 
 <UploadSt title="My-Eps-File.pdf" text="Designer"  days="8.9mb"  img="/imgs/eps.svg"/>
 
-</Cards>
+</Card>
 
 
 

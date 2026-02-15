@@ -1,10 +1,10 @@
-import Cards from '../SharedUi/Cards'
+import Card from '../CardTamplates/Card'
 
 
-export default function Welcome1(){
+export default function Welcome(){
 
 return(
-<Cards title="Welcom" text="Elzero" color=" bg-[#e6e3e396]" imgHe={ <img src='/imgs/welcome.png' className='absolute md:h-18 top-2 lg:left-3/5 md:left-30 left-24  h-16 hidden md:block ' /> }   imgAv={<img src='/imgs/avatar.png' className='size-11 absolute border-3 rounded-full border-white shadow-sm  left-1/2 md:left-4 md:top-16 '/>}>
+<Card title="Welcom" text="Elzero" color=" bg-[#e6e3e396]" imgHe={ <img src='/imgs/welcome.png' className='absolute  right-0 top-1 h-17 hidden md:block ' /> }   imgAv={<img src='/imgs/avatar.png' className='size-12  absolute border-4 rounded-full border-white shadow-sm  -bottom-5 left-1/2 -translate-x-1/2  md:left-6 md:translate-x-0 '/>}>
 
 <div className='flex flex-col items-center my-20'>{/**globl div */}
 
@@ -46,7 +46,7 @@ return(
 
 
 
-</Cards>
+</Card>
 
 
 

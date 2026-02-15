@@ -1,4 +1,4 @@
-import Cards from './Cards'
+import Cards from './Card.jsx'
 
 
 export default function NewsSt(props){
