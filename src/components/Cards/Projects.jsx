@@ -6,7 +6,7 @@ return(
 
     <div className=" bg-white rounded-2xl  w-full ">
 
-<header className=" pt-3 h-20 rounded-t-lg  ">
+<header className=" pt-3 pb-3 rounded-t-lg  ">
 <h1 className="font-medium md:text-xl mx-4 ">Projects</h1>
 </header>
 
