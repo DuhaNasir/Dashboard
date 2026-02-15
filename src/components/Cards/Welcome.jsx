@@ -4,9 +4,9 @@ import Card from '../CardTamplates/Card'
 export default function Welcome(){
 
 return(
-<Card title="Welcom" text="Elzero" color=" bg-[#e6e3e396] h-20"  imgHe={ <img src='/imgs/welcome.png' className='absolute  right-0 top-1 h-17 hidden md:block ' /> }   imgAv={<img src='/imgs/avatar.png' className='size-12  absolute border-4 rounded-full border-white shadow-sm  -bottom-5 left-1/2 -translate-x-1/2  md:left-6 md:translate-x-0 '/>}>
+<Card title="Welcom" text="Elzero" color=" bg-[#e6e3e396] h-20 md:h-25"  imgHe={ <img src='/imgs/welcome.png' className='absolute  right-0 top-1 h-17 hidden md:block ' /> }   imgAv={<img src='/imgs/avatar.png' className='size-12  absolute border-4 rounded-full border-white shadow-sm  -bottom-5 left-1/2 -translate-x-1/2  md:left-6 md:translate-x-0 '/>}>
 
-<div className='flex flex-col items-center my-20'>{/**globl div */}
+<div className='flex flex-col items-center my-20 '>{/**globl div */}
 
 <div className='  border-b w-full border-neutral-300'/> 
 
