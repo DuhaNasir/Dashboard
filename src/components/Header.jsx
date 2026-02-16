@@ -12,10 +12,10 @@ return (
  
 {!isSidebarOpen && (
 <FiList className="size-6 absolute left-4 top-4 " onClick={toggleSidebar} /> )}
-<div className=" flex justify-between bg-white px-4 pt-3  ml-12">
+<div className=" flex justify-between bg-white px-4 pt-2  ml-12">
 
 {/*input search */}
-<div className=" flex items-center  gap-1   ">
+<div className=" flex items-center  gap-1  md:mx-50 ">
 <div className="relative ">
 <input type="search" placeholder="Type A Keyword" className="border-2 border-[#c2c1c185] rounded-lg md:px-7 h-10 w-35  text-[10px] md:w-44 px-7  md:text-[14px] "  ></input>
 <IoMdSearch className=" absolute top-3 left-2 size-4 md:size-5  text-[#868686]" />

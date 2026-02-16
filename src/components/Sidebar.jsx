@@ -23,9 +23,9 @@ return (
 
 
 
-<aside className=" md:w-44 w-20 shadow-2xl rounded-s-lg z-50 ">
-<GoX className="absolute  md:top-3 md:left-8 md:size-5 top-3 left-1  " onClick={toggleSidebar} />
-<h1 className="   flex justify-center py-3 font-bold font-sans md:text-[15px] text-[12px] mx-1" onClick={toggleSidebar}> Elzero</h1>
+<aside className=" md:w-44 w-20 shadow-2xl rounded-s-lg z-50  ">
+<GoX className="absolute  md:top-8 md:left-8 md:size-5 top-8 left-1  " onClick={toggleSidebar} />
+<h1 className="   flex justify-center py-8 font-bold font-sans md:text-[15px] text-[12px] mx-1" onClick={toggleSidebar} > Elzero</h1>
 
 
     
