@@ -7,30 +7,29 @@ import { MdOutlinePayment } from "react-icons/md";
 import { IoPersonOutline } from "react-icons/io5";
 import { MdLinearScale } from "react-icons/md";
 import { AiOutlineBarChart } from "react-icons/ai";
-
 import Styleitems from "./CardTamplates/Styleitems"
+import { FaGripLines } from "react-icons/fa6";
+import { GoX } from "react-icons/go";
 
 
-export default function Sidebar(){
+
+export default function Sidebar({isSidebarOpen, toggleSidebar}){
+      if (!isSidebarOpen) return null;
+
 return (
 
 <div className="  flex ">
+    
 
 
 
-
-<aside className="   md:w-44 w-15 shadow-2xl rounded-s-lg z-50">
-
-<h1 className="   flex justify-center py-3 font-bold font-sans  "> Elzero</h1>
-<hr className="w-20 p-2 mx-11 px-10 hidden  md:inline"></hr>
-
-<div className="flex gap-2 bg-[#f7f3f385] rounded-md mx-3 md:mx-6 my-1 py-2  px-1">
-<AiOutlineBarChart className="scale-120  "  />
-<a className="text-xs hidden  md:inline py-1 font-sans"> Dashboard </a>
-</div>
+<aside className=" md:w-44 w-20 shadow-2xl rounded-s-lg z-50 ">
+<GoX className="absolute  md:top-3 md:left-8 md:size-5 top-3 left-1  " onClick={toggleSidebar} />
+<h1 className="   flex justify-center py-3 font-bold font-sans md:text-[15px] text-[12px] mx-1" onClick={toggleSidebar}> Elzero</h1>
 
 
-
+    
+<Styleitems icon={AiOutlineBarChart} name="Dashboard"/>
 
 <Styleitems icon={IoMdSettings} name="Setting"/>
 
@@ -48,14 +47,14 @@ return (
 
 
 
-
-
 </aside>
-
-
-
-
 </div>
+
+
+
+
+
+
 
 
     )
