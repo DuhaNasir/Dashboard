@@ -1,7 +1,7 @@
 import Card from '../CardTamplates/Card'
 import TasksSt from '../CardTamplates/TasksSt'
-
 export default function LatestTasks(){
+
 
 return(
 <Card title="Latest Tasks"  >
