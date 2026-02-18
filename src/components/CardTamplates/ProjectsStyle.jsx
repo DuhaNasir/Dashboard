@@ -23,7 +23,7 @@ return(
          
           </td>
 
-        <td className="px-4 py-3   text-white "> <div className={' flex rounded-md  h-6 items-center justify-center text-[10px]  px-2 '+' '+props.statusColor }>{props.status}</div> </td>
+        <td className="px-4 py-3   text-white "> <div className={' flex rounded-md w-20 h-6 items-center justify-center text-[10px]  px-2 '+' '+props.statusColor }>{props.status}</div> </td>
 
          </tr>
 

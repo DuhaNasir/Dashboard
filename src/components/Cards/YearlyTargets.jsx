@@ -22,11 +22,11 @@ return(
 <TbCurrencyDollar className="text-[#217bff] absolute left-5 top-5 size-6"/>
 </div>
 
-<div className='mt-2 ml-2 ' >
+<div className='mt-2 mx-3 flex-1 ' >
 <p className="text-[10px]  text-[#9c9b9b] ">Money</p>
 <p className="text-[12px] mt-1 font-bold  ">$20.000</p>
 
-<div className="relative h-1 bg-blue-100 w-30 md:w-40  mt-1 ">
+<div className="relative h-1 bg-blue-100 w-full  mt-1 ">
               <div className="absolute left-0 top-0 h-full bg-blue-500" style={{ width: '80%' }}>
                 <div className="absolute -right-3 -top-7 bg-blue-500 text-white text-xs px-1 py-0.5 rounded-sm">
                   80%
@@ -48,12 +48,12 @@ return(
 <div className="bg-[#fdecce]  w-16 h-16 relative shrink-0 ml-4">
 <IoCodeSlash className="absolute text-[#f5a125] left-5 top-5 size-6" />
 </div>
-<div className='mt-2 ml-2'>
+<div className='mt-2 mx-3 flex-1'>
 <p className="text-[10px] text-[#9c9b9b] ">Projects</p>
 <p className="text-[12px] font-bold  mt-1">24</p>
 
 
-<div className="relative h-1 bg-blue-100 w-30 md:w-40 lg:w-50 mt-1 ">
+<div className="relative h-1 bg-blue-100 w-full mt-1">
               <div className="absolute left-0 top-0 h-full bg-[#f5a125]" style={{ width: '55%' }}>
                 <div className="absolute -right-3 -top-7 bg-[#f5a125] text-white text-xs px-1 py-0.5 rounded-sm">
                   55%
@@ -80,13 +80,13 @@ return(
 <div className="bg-[#d3f3df]  w-16 h-16 relative shrink-0 ml-4">
 <IoPerson  className="absolute  text-[#22c55e] left-5 top-5 size-6" />
 </div>
-<div className='mt-2 ml-2'>
+<div className='mt-2 mx-3 flex-1 '>
 <p className="text-[10px] text-[#9c9b9b] ">Team</p>
 <p className="text-[12px] font-bold  mt-1">12</p>
 
 
 
-<div className="relative h-1 bg-blue-100 w-30 md:w-40 lg:w-50 mt-1 ">
+<div className="relative h-1 bg-blue-100 w-full -1 ">
               <div className="absolute left-0 top-0 h-full bg-[#22c55e]" style={{ width: '75%' }}>
                 <div className="absolute -right-3 -top-7 bg-[#22c55e] text-white text-xs px-1 py-0.5 rounded-sm">
                   75%
@@ -120,4 +120,3 @@ return(
 }
 
 
- 
